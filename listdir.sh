@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# 递归列出目录下所有符合条件的dir
+# 过滤掉含有 FILTER 子串的 dir
+
 # get all dirs in current dir
 function ergodic(){
   for file in `ls $1`
